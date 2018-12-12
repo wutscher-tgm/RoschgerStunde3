@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Schueler</title>
+    </head>
+    <body>
+        <h1>Schueler: </h1>
+        <ul>
+            <%
+                for (student of schueler){
+            %>
+                    <%= student.vorname %>
+                    <%= student.nachname %>
+            <%
+                }
+            %>
+        </ul>
+    </body>
+</html>
